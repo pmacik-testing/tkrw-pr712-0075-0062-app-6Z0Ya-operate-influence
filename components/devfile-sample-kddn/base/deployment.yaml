@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-kddn
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0062-tenant/tkrw-pr712-0075-0062-app/devfile-sample-kddn@sha256:9172467491d6c4bd166e04f59563e7bb9fcf72da51b7b69293bf18eab833743a
         name: my-nodejs
         ports:
         - containerPort: 3001
